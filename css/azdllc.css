@@ -1,0 +1,213 @@
+/* Home Page Styles */
+
+#dept-info {
+	float: right;
+	height: 100%;
+	min-height: 100%;
+	display: block;
+	width: 350px;
+}
+img#director-pic {
+	-moz-box-shadow:3px 3px 5px #CCCCCC;
+	-webkit-box-shadow: 3px 3px 5px #CCCCCC;
+	box-shadow: 3px 3px 5px #CCCCCC;
+	background-color:#FFFFFF;
+	border:1px solid #000000;
+	display:block;
+	margin:20px auto;
+	padding:10px;
+}
+h4.caption {
+	text-align: center;
+	font-size: .8em;
+	font-weight: bold;
+}
+#mccont p.teaser {
+	margin-left: 0;
+	font-size: 0.8em;
+}
+#dept-info p {
+	margin-left: 0;
+	font-size: 0.8em;
+}
+#current {
+	width: 400px;
+	float: left;
+}
+h3.title {
+	border-bottom: #428DBA 1px solid;
+	display: block;
+	width: 100%;
+	padding-bottom: 5px;
+}
+a#dir-link {
+	display: block;
+	width: 150px;
+	height: 60px;
+	background: transparent url(../images/misc/director_button.png) 0 0 no-repeat;
+	text-indent: -9999px;
+	border: none;
+	margin: auto;
+}
+a#dir-link:hover {
+	border: none;
+	background: transparent url(../images/misc/director_button.png) 0 -60px no-repeat;
+}
+a#dir-link:visited, a#dir-link:active {
+	border: none;
+}
+
+#slideshow {
+	padding: 1.5em;
+}
+/* Page Icon Styles */
+
+a[href $='.pdf'] {
+	padding-left: 18px;
+	background: transparent url(../images/misc/pdf_ico.gif) top left no-repeat;
+}
+
+a[href $='.doc'] {
+	padding-left: 18px;
+	background: transparent url(../images/misc/doc_ico.gif) top left no-repeat;
+}
+
+a[href $='.csv'], a[href $='.xls'] {
+	padding-left: 18px;
+	background: transparent url(../images/misc/xls_ico.gif) top left no-repeat;
+}
+
+
+a[href $='.ppt'] {
+	padding-left: 18px;
+	background: transparent url(../images/misc/ppt_ico.png) top left no-repeat;
+}
+
+a[rel="external"] {
+	padding-right: 18px;
+	background: transparent url(../images/misc/external.png) right no-repeat;
+}
+
+/* Def. List styles */
+
+#glossary dt {
+	font-weight: bold;
+}
+
+/* VCard style */
+
+#trainer-info, #contact-list {
+	width: 720px;
+	position: relative;
+	margin: auto;
+}
+
+#contact-list {
+    float: left;
+    display: block;
+    padding: 0 20px;
+}
+
+.vcard  {
+	width: 350px;
+	margin: 10px 5px;
+	float: left;
+	height: 200px;
+	min-height: 200px;
+}
+#contact-list .vcard {
+	clear:both;
+	float:none;
+	height:140px;
+	min-height:140px;
+	position:relative;
+}
+.vcard div.adr {
+	width: 310px;
+	position: relative;
+	margin: 20px 0;
+	clear: both;
+	font-size: .9em;
+}
+div.adr span.street-address, div.adr span.post-office-box {
+	float: left;
+}
+div.adr span.locality {
+	clear: both;
+	float: left;
+	padding-right: 6px;
+}
+div.adr span.region, div.adr span.postal-code  {
+	float: left;
+	padding-right: 6px;
+}
+.vcard span.fn {
+	width: 310px;
+	font-weight: bold;
+	color: #006699;
+	font-size: 1.2em;
+	float: left;
+}
+.vcard span.note, .vcard span.agent {
+	clear: both;
+	float: left;
+	font-size: 0.8em;
+	font-weight: bold;
+	width: 270px;
+	margin: 5px 0;
+}
+.vcard span.tel, .vcard span.fax, .vcard a.email, .vcard a.url, .vcard span.tdd {
+	float: left;
+	clear: both;
+	font-size: 0.8em;
+}
+.vcard span.tel, vcard span.fax, .vcard span.tdd {
+	width: 270px;
+}
+.vcard a.url {
+	padding-right: 18px;
+	background: transparent url(../images/misc/external.png) right no-repeat;
+}
+.vcard span.tel:before {
+	content: "Phone: ";
+}
+.vcard span.fax:before {
+	content: "Fax: ";
+}
+.vcard span.tdd:before {
+	content: "TDD: ";
+}
+.vcard a.email:before {
+	content: "e-mail: ";
+}
+.vcard a.url:before {
+	content: "web page: ";
+}
+
+ul#hours, #holiday {
+	float: left;
+	clear: both;
+}
+ul#hours {
+	margin-top: -415px;
+}
+
+/* Table Style */
+
+#mccont table {
+    width: 100%;
+    border: #333333 1px solid;
+}
+#mccont table td, #mccont table th {
+    padding: 5px;
+    text-align: left;
+    width: 50%;
+    border: none;
+}
+#mccont table thead tr {
+    background-color: #B9C9FE;
+    border: #333333 1px solid;
+}
+#mccont table tbody tr.odd {
+    background-color: #EEEEEE;
+}

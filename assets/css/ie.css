@@ -1,0 +1,23 @@
+/* IE Specific Styles */
+ul#social {
+	padding: 0 10px 0 50px;
+	margin: 16px 0 0 0;
+	width: 110px;
+}
+ul#hours {
+	margin-top: 0px;
+}
+/* Form Style */
+
+#mccont input#mailfrom, #mccont input#req_phone {
+	background-color: #FFFFFF !important; 
+	border: #7F9DB9 1px solid;
+}
+
+div#trainer-info div.vcard a.url,  div#trainer-info div.vcard a.email {
+	display: inline;
+	float: none;
+	clear: none;
+	width: 100%;
+	zoom: 1;
+}

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+.printwrapper {
+	visibility:visible;
+	display:block
+}
+
+#left_column, #right_column, .topmenu_wrapper,#helpmenu, .breadcrumb, #searchbar, .topmenu_wrapper, #bnr2_wrapper, #bnr_wrapper {
+display:none;
+visibility:hidden
+}
+#middle_column{
+	margin-right: 2em;
+	margin-left: 2em;
+	background: #3C9;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-top: 1em;
+	padding-top: 5px;
+	font-size: 14pt;
+	}
+*html #middle_column {
+	width:60%;
+	margin-right: 2em;
+	margin-left: 2em;
+	background: #3C9;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-top: 1em;
+	padding-top: 5px;
+	
+	
+	}

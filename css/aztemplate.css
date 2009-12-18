@@ -1,0 +1,671 @@
+/* ------------------------ Basic Body CSS Starts -------------------------*/
+body{
+	behavior: url(ie_fix.htc);
+	behavior: url(assets/css/ie_fix.htc);
+	padding:0px;
+	margin:0px;
+	background: #ECECEC;
+	font: 16px Verdana, Geneva, Tahoma, sans-serif ;
+	
+}
+img {
+	border:none;
+}
+.printwrapper  {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+
+}
+
+#mock_footer {
+	text-align: center;
+	font-size: .8em;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #666666;
+	background: url(../images/footer_back.jpg) repeat-x left top;
+}
+.content_wrapper{
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#mock_footer a {
+	color: #333333;
+	text-decoration: none;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#main1 {
+	margin:0;
+	padding:0;
+	background:#FFFFFF url(../images/left.gif) repeat-y left top;
+		}
+#main2 {
+	margin:0;
+	padding:0;
+	background:url(../images/right.gif) repeat-y right top;
+		}
+#left_column {
+	float:left;
+	width:12em;
+	margin:0;
+	padding:0;
+	position: relative;
+	z-index: 2000;
+		}
+#right_column {
+	float:right;
+	width:12em;
+	margin:0;
+	padding:0;
+	color: #FFF;
+		}
+#middle_column {
+	margin-top: 0;
+	margin-right: 0.6em;
+	margin-bottom: 0;
+	margin-left: 12em;
+	min-height: 700px;
+	background:#FFFFFF url(../images/star_bg.png) 30% top no-repeat fixed;
+		}
+.middle_content {
+	margin:0;
+	padding-top: 0.5em;
+	padding-right: .5em;
+	padding-bottom: 0.5em;
+	padding-left: .5em;
+	font-size: 0.9em;
+	color: #333333;
+	
+		}
+#middle_column .breadcrumb {
+	font-size: .7em;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+}
+#middle_column .breadcrumb a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #333333;
+}
+#mccont {
+	display: block;
+	height: 100%;
+	}
+#mccont p {
+	padding: 0px;
+	margin-top: 1.5em;
+	margin-right: 1.5em;
+	margin-bottom: 1.5em;
+	margin-left: 1.5em;
+	line-height: 1.4em;
+	}
+.lccont {
+	display: block;
+	height: 100%;
+	clear: both;
+	float: left;
+	width: 170px;
+	background: #8aa8ba url(../images/side_bg.jpg) repeat-x top;
+	border: 2px solid #006699;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin-top: 20px;
+	}
+.lccont h3 {
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-weight:normal;
+	margin-top:5px;
+	margin-bottom: -15px;
+	border-bottom: 1px solid #428DBA;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+ul#social {
+	padding-right: 5px;
+	border-top: 1px solid #8aa8ba;
+}
+ul#social li {
+	list-style-type: none;
+	list-style-position: outside;
+	margin-top: 10px;
+}
+ul#social li a {
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+}
+ul#social li:hover {
+	cursor: pointer;
+}
+ul#social li#twitter {
+	background:transparent url(../images/twitter_icon.png) no-repeat scroll 0 0;
+	height:80px;
+	margin-bottom:-30px;
+	margin-left:-26px;
+	padding:22px 0 0 37px;
+}
+ul#social li#facebook {
+	background:transparent url(../images/facebook_icon.png) no-repeat scroll 0 0;
+	height:35px;
+	margin-top: 30px;
+	margin-left:-30px;
+	padding:3px 0 0 40px;
+}
+ul#social li#rss {
+	background:transparent url(../images/rss_icon.png) no-repeat scroll 0 0;
+	height:45px;
+	margin-left:-35px;
+	padding:10px 0 0 45px;
+}
+ul#state {
+	width: 170px;
+	margin: auto;
+	padding: 0;
+}
+ul#state li {
+	list-style-type: none;
+	list-style-position: outside;
+	float: left;
+	width: 70px;
+	margin: 10px 5px;
+}
+ul#state li a {
+	font-size: .6em;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+ul#state li#yes {
+	margin-top: 74px;
+}
+#lccont p {
+	padding: 0px;
+	margin-top: 0.5em;
+	margin-right: 0em;
+	margin-bottom: 0.5em;
+	margin-left: 0em;	
+	
+	}
+#mccont h1 {
+	font-size: 1.1em;
+	padding: 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+#mccont h2, #mccont h3, #mccont h4, #mccont h5, #mccont h6 {
+	color: #1F4167;
+}
+#mccont a {
+	color: #003366;
+	text-decoration: none;
+	border-bottom: 1px dotted #003366;
+}
+#mccont a:hover {
+	color: #009999;
+	border-bottom: 1px solid #009999;
+}
+.right_content {
+	margin:0;
+	padding-top: 0.5em;
+	padding-right: .5em;
+	padding-bottom: 0.5em;
+	padding-left: .5em;
+	font-size: .9em;
+		}
+.left_content {
+	margin:0;
+	padding-top: 0.5em;
+	padding-right: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 0.5em;
+	font-size: 0.9em;
+	color: #FFF;
+		}
+.block {
+		clear:both;
+		height:1px;
+		font-size:1px;
+		border:none;
+		margin:0; padding:0;
+		background:transparent;
+		}
+#mccont ul h3 {
+	margin-left: -40px;
+}
+#mccont ul li{
+	background:transparent url(../images/star_bullet.png) no-repeat scroll 0 0;
+	min-height:32px;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin-left:-40px;
+	padding-left:40px;
+	padding-top:6px;
+	vertical-align:middle;
+}
+#mccont ul ol li {
+    background: none;
+    list-style-type: decimal;
+    list-style-position: inside;
+    min-height: 1.5em;
+}
+#mccont ul ol li ol li {
+    list-style-type: lower-alpha;
+}
+/* -------------------------- Basic Body CSS Ends  ---------------------------*/
+/* -------------------------- Banner CSS Starts  ----------------------------*/
+#helpmenu{
+	width: 100%;
+	height: 1.5em; /*Height of top frame div*/
+	overflow: hidden;
+	background: #FFFFFF;
+	text-align: right;
+	display: table;
+	font-weight: bold;
+	color: #999;
+	line-height: 1.5em;
+	font-size: 0.9em;
+	font-style: normal;
+	}
+
+#helpmenu a{
+	color: #666;
+	text-decoration: none;
+	padding-right: 5px;
+	padding-left: 5px;
+	}
+
+#headerTop{
+	font-size: .85em;
+}
+
+#MinWidthContainer {
+	padding-left:790px;
+	height: 135px;
+}
+#MinWidthContainer #PageContainer {
+	height: 1px;
+}
+#MinWidthContainer #PageContainer #PageContentContainer {
+margin-left:-790px;
+position: relative;
+height: 1px;
+}
+.hidden_link {
+	display: none;
+	visibility: hidden;
+}
+
+#searchbar {
+	padding-right: 10px;
+	padding-left: 10px;
+	float: right;
+	margin: 0px;
+	padding-top: 0px;
+}
+#searchbar form {
+	margin: 0px;
+	padding: 0px;
+}
+
+.search{
+	width: 25em;
+	margin-right: -0.3em;
+	border: 1px none #FFFFFF;
+	background: #FFFFFF no-repeat left center;
+	}
+.search:hover{
+	background: #FFFFCC url(none);
+	}
+.search:active{
+	background: #FFFFCC url(none);
+	}
+
+.searchbutton{
+	color: #000000;
+	background: #999999;
+	width: 5em;
+	border: 1px solid #333333;
+	font-size: 0.9em;
+	}
+
+	
+.searchbutton:hover {
+	background: #666;
+	cursor: pointer;
+	color: #FFFFFF;
+}
+#azlogo{
+	height: 75px;
+	float: left;
+	width: 302px;
+	text-align: left;
+	margin-right: -20em;
+	background: url(../images/azagency_logo.jpg) no-repeat;
+	}
+
+.seal{
+	float: right;
+	background: url(../images/azlogo.jpg) no-repeat left;
+	height: 75px;
+	width: 302px;
+	text-align: right;
+	margin-left: -20em;
+	}
+
+#bnr_wrapper {
+	background: #333333 url(../images/bnr_back.jpg) repeat-x left top;
+	white-space: nowrap;
+	min-width:800px;
+	display: table;
+	width: 100%;
+	text-align: center;
+	height: 7em;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #333333;
+	font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+#bnr_center{
+	color: #FFFFFF;
+	font-size: 1.7em;
+	line-height: 1.1em;
+	text-shadow: #000 2px 2px 2px;
+	height: 75px;
+	width: 950px;
+	background: url(../images/bnr_mid_back.jpg) no-repeat;
+	margin-right: auto;
+	margin-left: auto;
+}
+#bnr_center .bnr_text {
+	width: 350px;
+	padding-top: 0.8em;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	white-space: normal;
+	padding-left: 10px;
+	font-family:Verdana, Verdana, Geneva, Tahoma, sans-serif ;
+	font-size: 0.7em;
+	font-weight: 900;
+}
+#bnr_wrapper #slogan {
+	float: left;
+	color: #FFFFFF;
+	font-size: 0.9em;
+	margin-top: 3px;
+	padding-left: 9px;
+}
+
+#bnr_wrapper #bnr2_wrapper {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* ------------------------- Top Drop Menu Begins --------------------------- */
+.topmenu_wrapper {
+	background: #333333 url(../images/bnr02.jpg) no-repeat left bottom;
+	width: 100%;
+	text-align: center;
+	height: 20px;
+	display: table;
+	white-space: nowrap;
+	}
+.topmenu {
+	color:#FFFFFF;
+	width: 65em;
+	margin-left:auto;
+	margin-right: auto;
+	position: relative;
+	white-space: nowrap;
+	}
+#nav li:hover ul.sub
+{
+	left:0em;
+	top:1.5em;
+	background: #062233;
+	width:62.5em;
+	height:5.3em;
+	z-index:100;
+	font-weight: normal;
+	text-align: left;
+	overflow: auto;
+	position:absolute;
+	border: 1px solid #8aa8ba;
+	/* for IE */
+  filter:alpha(opacity=90);
+	/* CSS3 standard */
+  opacity:0.9;
+	padding: 1px;
+}
+#nav {
+	margin:0;
+	list-style:none;
+	z-index:500;
+	padding: 0;
+	width: 65em;
+	font-weight: bold;
+}
+#nav li.top {
+	display:block;
+	float:left;
+	white-space: normal;
+}
+#nav li.top:hover {
+}
+#nav li a.top_link {
+	line-height:1.5em;
+	display:block;
+	float:left;
+	color:#FFF;
+	text-decoration:none;
+	font-size:1em;
+	cursor:pointer;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-right: 10px;
+	padding-left: 10px;
+	background: url(../images/tab_corner.gif) no-repeat left top;
+	font-size: 1em;
+}
+#nav li a.top_link:hover {
+  color:#FFFFFF;
+  cursor:pointer;
+  	
+}
+
+#nav li a.top_link span {float:left; display:block;}
+#nav li a.top_link span.down {float:left; display:block;}
+.down:hover {	
+}
+#nav li:hover a.top_link {color:#FFFFFF; }
+#nav li:hover a.top_link span {color:#FFFFFF; }
+#nav li:hover a.top_link span.down{	
+}
+#nav li:hover {
+	z-index:400;
+	background: #8aa8ba;
+	color:#FFFFFF;	
+}
+#nav li:hover ul.sub li
+{
+	position:relative;
+	float:left;
+	font-weight:normal;
+	color:#FFF;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #666666;
+	margin-right: 5px;
+	padding-top: 0px;
+	white-space: normal;
+}
+#nav li:hover ul.sub li:hover
+{
+	background: #8aa8ba;
+	color:#FFFFFF;
+	background: #8aa8ba;
+}
+#nav li:hover ul.sub li a
+{
+	display:block;
+	font-size:1em;
+	width:14em;
+	color:#FFF;
+	text-decoration:none;
+	font-weight: normal;
+	padding-left: 1px;
+}
+.topmenu_wrapper .topmenu #nav .fly {
+	font-size: 0.9em;
+	line-height: 1.8em;
+}
+
+
+#nav ul, 
+#nav li:hover ul ul,
+#nav li:hover li:hover ul ul,
+#nav li:hover li:hover li:hover ul ul,
+#nav li:hover li:hover li:hover li:hover ul ul
+{position:absolute; left:-9999px; top:-9999px; width:0; height:0; margin:0; padding:0; list-style:none; color:#FFFFFF; }
+#nav li:hover li:hover a.fly,
+#nav li:hover li:hover li:hover a.fly,
+#nav li:hover li:hover li:hover li:hover a.fly,
+#nav li:hover li:hover li:hover li:hover li:hover a.fly
+{color:#FFFFFF; } 
+.viewall{
+	background: #8aa8ba;
+	text-align:center;
+}
+
+/* ---------------------------- Top Drop Menu ENDS---------------------------- */
+/* -------------------------- Banner CSS ENDS  ----------------------------*/
+
+/* --------------------------- left Menu Begins  ---------------------------- */
+
+.nextlevel {
+	background-color: #062233;
+	 Verdana, Geneva, Tahoma, sans-serif ;
+
+}
+.nextlevel a {
+	color:#0F9;
+}
+
+
+#menu {
+	width: 170px;
+	float: left;
+	/* position: fixed;
+	top: 10em; */
+}
+
+#menu ul {
+list-style: none;
+margin: 0;
+padding: 0;
+color:#FFFFFF;
+}
+
+#menu a, #menu h2 {
+	font: bold 80% Verdana, Geneva, Tahoma, sans-serif ;
+	display: block;
+	margin: 0;
+	padding: 10px 2px 2px 5px;
+	color: #FFF;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666;
+}
+
+#menu a {
+text-decoration: none;
+
+}
+
+#menu a:hover {
+	color: #FFF;
+	background: #8aa8ba;
+	
+}
+
+#menu li {
+	position: relative; 
+}
+
+#menu ul li ul {
+	
+	position: absolute;
+	top: 0;
+	left: 100%;
+	width: 100%;
+	/* for IE */
+  filter:alpha(opacity=95);
+	/* CSS3 standard */
+  opacity:0.95;
+	border: 1px solid #CCC;
+}
+#menu ul li ul a {
+	color:#FFF
+}
+#menu li:hover {
+	background: #8aa8ba;
+	color:#FFFFFF;
+}
+
+div#menu ul li ul,
+div#menu ul li:hover ul ul
+{
+	display: none;	
+}
+
+div#menu ul li:hover ul,
+div#menu ul li ul li:hover ul
+{display: block;}
+
+
+#menu ul li {float: left; width: 100%; }
+#menu ul li a {height: 1%; color:} 
+
+
+.arrow {
+	background: url(../images/arrow.gif) no-repeat right center;
+}
+/* ---------------------------- left Menu Ends  ---------------------------- */
+
+	/* BEGIN HIDDEN PRINT DIVS   */
+	
+.printwrapper {
+	visibility:hidden;
+	display:none
+}
+
+/* END HIDDEN PRINT DIVS   */
+/* Start Sticky footer */
+html, body, #wrap {height: 100%;}
+
+body > #wrap {height: auto; min-height: 100%;}
+
+#main {padding-bottom: 20px; background: #ffffff url(../images/right.gif) repeat-y ;}  /* must be same height as the footer */
+
+#mock_footer {position: relative;
+	margin-top: -20px; /* negative value of footer height */
+	height: 20px;
+	clear:both;} 
+
+
