@@ -102,10 +102,10 @@ Department of Liquor Licenses and Control<br />
                     <div id="searchbar">
               			<form name="fSearch" target="_top" action="http://az.gov/webapp/portal/SiteSearch" method="get" >
 	                        <input type="hidden" name="restrict" value="site:azliquor.gov" />
-	                        <input type="hidden" name="sitehome" value="http://www.azliquor.gov/test/index.html" />
+	                        <input type="hidden" name="sitehome" value="http://www.azliquor.gov/index.html" />
 	                        <input type="hidden" name="sitename" value="Dept. of Liquor Licenses and Control" />
-	                        <input type="hidden" name="logo" value="http://www.azliquor.gov/test/assets/images/dllc_logo.png" />
-	                        <input type="hidden" name="template" value="http://www.azliquor.gov/test/results.html" />
+	                        <input type="hidden" name="logo" value="http://www.azliquor.gov/assets/images/dllc_logo.png" />
+	                        <input type="hidden" name="template" value="http://www.azliquor.gov/results.html" />
 	                        <input type="text" size="30" name="q" value="" class="search" />
 	                        <input type="submit" name="search" value="Search" class="searchbutton" />
                     	</form>
